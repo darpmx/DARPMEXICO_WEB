@@ -141,8 +141,8 @@ class POP3
         $host,
         $port = false,
         $tval = false,
-        $username = '',
-        $password = '',
+        $username = 'contacto@darpmexico.com',
+        $password = 'darp2016',
         $debug_level = 0
     ) {
         $pop = new POP3;

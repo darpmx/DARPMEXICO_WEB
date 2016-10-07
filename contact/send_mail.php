@@ -1,13 +1,13 @@
 <?php
 require 'PHPMailer/PHPMailerAutoload.php';
 
-$host = 'YOUR_HOST';
+$host = 'pop.secureserver.net';
 
-$username = 'USERNAME@DOMAIN.com';
+$username = 'contacto@darpmexico.com';
 
-$password = 'YOUR_PASSWORD';
+$password = 'darp2016';
 
-$send = false;
+$send = true;
 
 // Subject
 $subject = addslashes(strip_tags($_POST['subject']));
